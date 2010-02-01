@@ -1,0 +1,3 @@
+[submodule "jquery.objects"]
+	path = jquery.objects
+	url = git://github.com/jpoz/jquery.objects.git

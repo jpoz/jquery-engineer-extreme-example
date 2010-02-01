@@ -1,0 +1,52 @@
+.item {
+    border-radius: 5px 5px 0px 0px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(255,255,255,0.25);
+    background: #D4D4D4;
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+.menu, .image_viewer {
+    background: #EFEFEF url(http://gradient.jpoz.net/400/20/EFEFEF/DDDDDD/output.png) repeat-x;
+    height: 100%;
+    border: 1px solid #CCC;
+}
+
+.image_viewer {
+    text-align: center;
+}
+
+.image_viewer img {
+    margin: 10px auto;
+}
+
+.menu .menu_header {
+    padding: 5px;
+    font-size: 24px;
+    text-shadow: 0 -1px 1px rgba(255,255,255,0.25);
+    background: #DDDDDD;
+}
+.menu .menu_content {
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.split_screen {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.flickr_tile {
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin: 3px;
+    cursor: pointer;
+}
